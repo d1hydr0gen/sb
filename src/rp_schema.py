@@ -12,7 +12,7 @@ INPUT_SCHEMA = {
         'type': int,
         'required': False,
         'default': 512,
-        'constraints': lambda width: width in [128, 256, 384, 448, 512, 576, 640, 704, 768]
+        'constraints': lambda width: width in [128, 256, 384, 448, 512, 576, 640, 704, 768,800,1024]
     },
     'height': {
         'type': int,
